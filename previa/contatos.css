@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Montserrat:wght@400;500&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-size: 100%;
+    background: 
+    linear-gradient(63.02deg,#dee9e2bd, #e0e0e0 );
+}
+
+/*Barra de navegação*/
+
+ .cabeca{
+      display: flex;
+     justify-content:space-around;
+     align-items: center;   
+     padding: 10px;
+     border-bottom: 0.1px solid #5e5e5c25; 
+     position: relative;
+    /*background-color: aliceblue;*/ }
+
+.cabeca-imagem{border-radius: 50%; width: 70px;}
+
+.cabeca-menu{display: flex; gap: 50px; } 
+
+.cabeca-menu-item{
+    color: black ;
+    font-size: 18px;
+    font-weight: 500;    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+          
+}
+
+.cabeca-menu-item:hover{
+    color: #775e4e;
+    font-size:20px;
+    text-decoration: none;
+    
+}
+
+@media (max-width:769px) {
+    .cabeca{justify-content: center;}
+    .cabeca-menu{display: none;}
+    .cabeca-menu-item{font-size: 16px; display: block; background-color: #dee9e2bd ;}
+    .cabeca-menu-item:hover{font-size: 12px; text-decoration: none; padding: 0px;}   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatsapp{
+    border-radius: 50%;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Montserrat:wght@400;500&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    
+}
+
+body{
+    font-size: 100%;
+    background: 
+    linear-gradient(63.02deg,#dee9e2bd, #e0e0e0 );
+}
+
+/*Barra de navegação*/
+
+ .cabeca{
+      display: flex;
+     justify-content:space-around;
+     align-items: center;   
+     padding: 10px;
+     border-bottom: 0.1px solid #5e5e5c25; 
+     position: relative;
+    /*background-color: aliceblue;*/ }
+
+.cabeca-imagem{border-radius: 50%; width: 70px;}
+
+.cabeca-menu{display: flex; gap: 50px; } 
+
+.cabeca-menu-item{
+    color: black ;
+    font-size: 18px;
+    font-weight: 500;    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; 
+          
+}
+
+.cabeca-menu-item:hover{
+    color: #775e4e;
+    font-size:20px;
+    text-decoration: none;
+    
+} 
+
+@media (max-width:769px) {
+    .cabeca{justify-content: center;}
+    .cabeca-menu{display: none;}
+    .cabeca-menu-item{font-size: 16px; display: block; background-color: #dee9e2bd ;}
+    .cabeca-menu-item:hover{font-size: 12px; text-decoration: none; padding: 0px;}   
+
+}
+
+/* main{
+    display: flex;
+    width: 100%;
+        justify-content: center;
+    align-items: center;
+}
+
+ */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+input{
+    width: 100%;
+    padding-left: 20px;
+    height: 55px;
+    align-items: center;
+    justify-items:center; 
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+#enviar { 
+    background-color: #775e4e2a;
+    color: black;
+    font-size: 15px;
+}
+
+#enviar:hover{
+    background-color: #9da19ffd;
+    color: #775e4e;
+
+}
+
+.input{
+    margin: 5px;
+
+}
+
+.contatos { 
+    padding: 40px;
+    width: 40%;
+
+}
+
+.container-form{
+    width: 60%;
+    height: 500px;
+    padding: 60px; 
+
+}
+
+.contatos h3 {
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: black;
+}
+.area-contato{
+    display: flex;
+    gap: 30px; 
+    padding: 20px; 
+    width: 400px; 
+    height: 100px; 
+}
+
+.imagem-contato img{
+    width: 50px; border-radius: 50%;
+
+}
+
+.texto-contato { 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: black;
+}
+
+.texto-contato h5 { font-weight: 600; font-size: 15px;}
+
+.texto-contato a {
+    text-decoration: none;
+    color: black;
+}
+.texto-contato p:hover{
+    color: #775e4e ;
+    
+}
+
+
+
+
+@media (max-width:992px) {
+        .container{
+            display: block;
+        }
+
+    .container-form{
+        width: 100%;
+    }
+    
+    .contatos{
+        width: 100%;
+        
+    }
+    
+    }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatsapp{
+    border-radius: 50%;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.imagens { 
+    border-radius: 50%;
+    width: 50px;
+
+}
